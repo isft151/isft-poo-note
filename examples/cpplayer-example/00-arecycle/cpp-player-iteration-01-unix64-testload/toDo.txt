@@ -1,0 +1,7 @@
+1-Armar un library loader que reciba el tipo por template y devuelva la instancia
+2-Ese library loader debe administrar su memoria como el component factory.
+3-Se puede hacer un library loader que filtre a la antigua por texto una o varias interfaces.
+4-porque usando el shared pointer puede tener el problema de que solo se puede pedir una interfaz a la vez,
+para mi no sería un problema, porque siempre puede haber una interfaz que junte a otras.
+
+5-En definitiva es armar el SFML wrapper en vendors
