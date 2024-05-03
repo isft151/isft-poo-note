@@ -12,15 +12,15 @@ class Player
         virtual void setVolume(float value) = 0;
 };
 
-//PlayerPitchable Interface:
-class PlayerPitchable
+//Pitchable Interface:
+class Pitchable
 {
     public:
         virtual void setPitch(float pitch) = 0;
 };
 
 //VLC concrete class
-class VLC : public Player, public PlayerPitchable
+class VLC : public Player, public Pitchable
 {
     public:
         VLC() 
@@ -34,6 +34,7 @@ class VLC : public Player, public PlayerPitchable
         {
             cout << "The VLC destructor was invoked." << endl;
         }
+    //Player Interface:
         void open(string filePath)
         {
             //@ToDo: por ahora simulamos la apertura correcta
@@ -57,6 +58,7 @@ class VLC : public Player, public PlayerPitchable
             volume = value;
             cout << "The volume value is: " << volume << endl;
         }
+    //Pitchable Interface:
         void setPitch(float value)
         {
             pitch = value;
@@ -72,7 +74,10 @@ class VLC : public Player, public PlayerPitchable
 
 void testPlayer(Player& player)
 {
-    cout << typeid(player).name() << endl;
+    cout << "Start test of Player: " << endl;
+    player.play();
+    cout << "End test of Player" << endl;
+    cout << endl;
 }
 
 int main()

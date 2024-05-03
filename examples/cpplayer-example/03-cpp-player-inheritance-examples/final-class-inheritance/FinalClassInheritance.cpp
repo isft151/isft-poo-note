@@ -1,5 +1,4 @@
 #include <iostream>
-#include <fstream>
 using namespace std;
 class AudioPlayer
 {
@@ -51,7 +50,7 @@ class VLC : public AudioPlayer
         VLC() 
         { 
             cout << "The VLC constructor was invoked." << endl;
-            setVolume(10);
+            setVolume(11);
             setPitch(0);
         }
         ~VLC()

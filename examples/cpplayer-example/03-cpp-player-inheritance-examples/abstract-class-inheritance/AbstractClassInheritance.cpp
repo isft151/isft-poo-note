@@ -60,7 +60,7 @@ class VLC : public Player
         {
             //@ToDo: por ahora simulamos la apertura correcta
             isOpen = true;
-            cout << "The audiofile: " << filePath << " is open." << endl;
+            cout << "The audiofile: " << filePath << " is open into VLC." << endl;
         }  
         void setPitch(float value)
         {
@@ -87,7 +87,7 @@ class Winamp : public Player
         {
             //@ToDo: por ahora simulamos la apertura correcta
             isOpen = true;
-            cout << "The audiofile: " << filePath << " is open." << endl;
+            cout << "The audiofile: " << filePath << " is open into Winamp." << endl;
         }   
 };
 

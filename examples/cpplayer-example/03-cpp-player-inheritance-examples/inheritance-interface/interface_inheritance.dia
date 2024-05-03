@@ -360,7 +360,7 @@
         <dia:point val="8.9501,-12.8967"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="8.9001,-12.9467;21.4351,-6.84665"/>
+        <dia:rectangle val="8.9001,-12.9467;21.4351,-6.8467"/>
       </dia:attribute>
       <dia:attribute name="elem_corner">
         <dia:point val="8.9501,-12.8967"/>
@@ -834,13 +834,13 @@ A qué metodos respondo              #</dia:string>
     </dia:object>
     <dia:object type="Standard - Line" version="0" id="O5">
       <dia:attribute name="obj_pos">
-        <dia:point val="27.8224,-18.5548"/>
+        <dia:point val="27.8224,-18.5549"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="22.0122,-19.4846;27.8777,-18.4995"/>
+        <dia:rectangle val="22.0122,-19.4847;27.8777,-18.4996"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
-        <dia:point val="27.8224,-18.5548"/>
+        <dia:point val="27.8224,-18.5549"/>
         <dia:point val="22.0675,-19.2066"/>
       </dia:attribute>
       <dia:attribute name="numcp">
@@ -946,7 +946,7 @@ interfaz (UML 2.5)#</dia:string>
         <dia:point val="24.3445,-13.4926"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="18.5472,-18.2579;24.4149,-13.4222"/>
+        <dia:rectangle val="18.5471,-18.2579;24.4149,-13.4222"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="24.3445,-13.4926"/>
@@ -986,7 +986,7 @@ interfaz (UML 2.5)#</dia:string>
         <dia:real val="3.6000000000000001"/>
       </dia:attribute>
       <dia:attribute name="name">
-        <dia:string>#PlayerPitchable#</dia:string>
+        <dia:string>#Pitchable#</dia:string>
       </dia:attribute>
       <dia:attribute name="stereotype">
         <dia:string>#interface#</dia:string>
@@ -1241,7 +1241,7 @@ como Java o C##</dia:string>
         <dia:point val="8.38466,-15.4824"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="8.33404,-15.9195;15.2182,-15.196"/>
+        <dia:rectangle val="8.33404,-15.9196;15.2182,-15.196"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="8.38466,-15.4824"/>
@@ -1593,7 +1593,7 @@ PlayerPirchable  #</dia:string>
         <dia:point val="4.36,-10.4"/>
       </dia:attribute>
       <dia:attribute name="obj_bb">
-        <dia:rectangle val="4.30791,-10.9271;9.00219,-10.2042"/>
+        <dia:rectangle val="4.30791,-10.9272;9.00219,-10.2042"/>
       </dia:attribute>
       <dia:attribute name="conn_endpoints">
         <dia:point val="4.36,-10.4"/>
