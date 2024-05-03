@@ -1,2 +1,2 @@
 # isft-poo-note
-Apunte de programación orientada a objetos de Prácticas Profesionalizantes I y II
+Apunte de introducción a la programación orientada a objetos de Prácticas Profesionalizantes I y II
